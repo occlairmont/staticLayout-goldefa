@@ -1,0 +1,49 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 35vh;
+    margin: 0;
+    background-image: url(https://www.hulu.com/static/hitch/s3/2020-04/Homepage_Masthead_Test_TREATMENT_1536x1320-v4b_Tablet_0.jpg?nEbSE3Tu4GiJOym6WaNbx2Psd9UlQrGN);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.nav {
+    padding: 1em;
+}
+
+.intro {
+    text-align: center;
+    color: white;
+    padding: 2em;
+}
+
+h1 {
+    font: bold 60px Almarai, sans-serif; 
+}
+
+h2{
+    font: 20px Almarai, sans-serif;
+}
+
+#freeoffer { 
+    width: 2em;
+    height: 2em;
+    border: 1px solid white;
+    border-radius: 2em;
+    background-color: white;
+}
+#offer {
+    background-color: rgb(0,48, 56);
+}    
+
+.content {
+    width: 100%;
+    height: 15em;
+    position: relative;
+    background-image: url(https://www.hulu.com/static/hitch/s3/2019-11/Welcome-ContentBlock-Desktop%20.jpg?jG5AfMZ.bGHD8c3NgPVsML79Im6UkUSW);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
