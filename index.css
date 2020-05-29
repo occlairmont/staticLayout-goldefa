@@ -1,17 +1,31 @@
+body{
+    margin: 0;
+}
 #main {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     width: 100vw;
-    height: 35vh;
-    margin: 0;
+    height: 70vh;
     background-image: url(https://www.hulu.com/static/hitch/s3/2020-04/Homepage_Masthead_Test_TREATMENT_1536x1320-v4b_Tablet_0.jpg?nEbSE3Tu4GiJOym6WaNbx2Psd9UlQrGN);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
+p {
+    color: white;
+    font: Futura_Book-Bold, sans-serif;
+}
+
+a {
+    color: white;
+}
+
 .nav {
     padding: 1em;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
 }
 
 .intro {
@@ -37,6 +51,8 @@ h2{
 }
 #offer {
     background-color: rgb(0,48, 56);
+    width: 100vw;
+    height: 20vh;
 }    
 
 .content {
